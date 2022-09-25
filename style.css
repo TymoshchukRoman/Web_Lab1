@@ -12,23 +12,25 @@
 }
 
 .details{
-    margin-left: 8%;
-    margin-top: 5%;
-}
+    margin-left: 9%;
+    margin-top: 13%;
+} 
 
 .details h1{
     font-size: 50px;
-    color: #212121;
-    margin-bottom: 20px;
+    color: #212121;     
+    margin-bottom: 30px;
 }
 
 span{
     color: orange;
 }
 
-.details p{
-    color: #555;
+.details p {
+    color: black;
     line-height: 22px;
+    font-size: 30px;
+    margin-bottom: 40px;
 }
 
 .images{
@@ -42,7 +44,7 @@ span{
 .images img{
     height: 100%;
     position: absolute;
-    left: 50%;
+    left: 60%;
     bottom: 15%;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s; 
