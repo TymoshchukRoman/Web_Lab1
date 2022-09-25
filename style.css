@@ -4,16 +4,18 @@
     font-family: 'Times New Roman';
 }
 
-.hero{
+.container{
     position: fixed;
+    display: grid;
     width: 100%;
     height: 100vh;
     background: #eff4fd;
+    grid-template-columns: 1fr 1fr;
 }
 
 .details{
     margin-left: 9%;
-    margin-top: 10%;
+    margin-top: 15%;
 } 
 
 .details h1{
