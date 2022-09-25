@@ -13,7 +13,7 @@
 
 .details{
     margin-left: 9%;
-    margin-top: 13%;
+    margin-top: 10%;
 } 
 
 .details h1{
@@ -44,12 +44,12 @@ span{
 .images img{
     height: 100%;
     position: absolute;
-    left: 60%;
+    left: 80%;
     bottom: 15%;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s; 
 }
 
 .images:hover .myself{
-    left: 45%;
+    left: 70%;
 }
