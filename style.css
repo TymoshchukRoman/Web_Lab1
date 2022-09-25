@@ -15,7 +15,7 @@
 
 .details{
     margin-left: 9%;
-    margin-top: 15%;
+    margin-top: 10%;
 } 
 
 .details h1{
@@ -30,9 +30,13 @@ span{
 
 .details p {
     color: black;
-    line-height: 22px;
+    line-height: 37px;
     font-size: 30px;
     margin-bottom: 40px;
+}
+
+.details b {
+    font-size: 35px;
 }
 
 .images{
