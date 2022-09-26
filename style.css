@@ -13,14 +13,21 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.details{
+.main-content{
     margin-left: 9%;
-    margin-top: 13%;
-} 
+}
 
-.details h1{
+.about-me{
+    margin-top: 7%;
+}
+
+.lang-switcher{
+    margin-top: 3%;
+}
+
+.about-me h1 {
     font-size: 50px;
-    color: #212121;     
+    color: #212121;
     margin-bottom: 30px;
 }
 
@@ -28,14 +35,14 @@ span{
     color: orange;
 }
 
-.details p {
+.about-me p {
     color: black;
     line-height: 37px;
     font-size: 30px;
     margin-bottom: 40px;
 }
 
-.details b {
+.about-me b {
     font-size: 35px;
 }
 
@@ -58,4 +65,15 @@ span{
 
 .images:hover .myself{
     left: 70%;
+}
+
+.translate {
+    width: 43px;
+    height: 33px;
+    border: 0;
+    padding: 0;
+}
+
+.lang{
+    display: inline-block;
 }
