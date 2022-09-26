@@ -9,22 +9,25 @@
             <div class="main-content">
                 <div class="lang-switcher">
                     <ul>
-                        <li class="lang"><button id="en" class="translate"> <img src="images/united_kingdom.png"></button></li>
-                        <li class="lang"><button id="ukr" class="translate"> <img src="images/ukraine.png"></button></li>
+                        <li class="lang"><button id="en" class="translate" onclick="onEnClick()"> <img src="images/united_kingdom.png"></button></li>
+                        <li class="lang"><button id="ukr" class="translate" onclick="onUkrClick()"> <img src="images/ukraine.png"></button></li>
                     </ul>
                 </div>
                 <div class="about-me">
-                    <h1>I'm <span>Roman Tymoshchuk</span></h1>
-                    <p><b>Age:</b> 19</p>
-                    <p><b>Location:</b> Dubno, Ukraine</p>
-                    <p><b>Group:</b> KP-03</p>
-                    <p><b>Hobbies:</b> Chess, football, computer games</p>
+                    <h1> <span id="hello">I'm</span> <span id="name" class="fullname">Roman Tymoshchuk</span></h1>
+                    <p><b id="ageTitle">Age:</b> <span id="ageText">19</span></p>
+                    <p><b id="locationTitle">Location:</b> <span id="locationText">Dubno, Ukraine</span></p>
+                    <p><b id="groupTitle">Group:</b> <span id="groupText">KP-03</span></p>
+                    <p><b id="hobbiesTitle">Hobbies:</b> <span id="hobbiesText">Chess, football, computer games</span></p>
                     <p>
-                        <b>My expectations:</b> I chose this course to learn another branch of programming.
-                        I expect to get thorough knowledge of web development.
+                        <b id="expectationsTitle">My expectations:</b> 
+                        <span id="expectationsText">
+                            I chose this course to learn another branch of programming.
+                            I expect to get thorough knowledge of web development.
+                        </span>
                     </p>
-                    <p><b>Best technologies:</b> Python, C# .NET, OpenGL</p>
-                    <p><b>Work experience:</b> 9 months of engineering software development</p>
+                    <p><b id="techTitle">Favorite technologies:</b> <span id="techText">Python, C# .NET, OpenGL</span></p>
+                    <p><b id="expTitle">Work experience:</b> <span id="expText">9 months of engineering software development</span></p>
                 </div>
             </div>
             <div class="images">
